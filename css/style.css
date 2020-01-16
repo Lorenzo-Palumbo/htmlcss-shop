@@ -1,61 +1,49 @@
-.container{position: relative;
-    left: 220px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-.container2{position: relative;
-    left: 220px;
-    top: 10px
+.container{width: 700px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-img{
-    width: 350px;
-    height: 340px
-}
-
-.phone{
+.prodotto{
     display: inline-block;
-    border-style: solid;
+    position: relative;
 }
 
-.percph{
-    background-color: red;
+.prodotto img{
+    width: 200px;
+    height:250px;
+    object-fit: contain;
+}
+
+.sconto{
     position: absolute;
-    left: 400px;
-}
-
-.tablet{position: absolute;
-    left: 360px;
-    border-style: solid;
-}
-
-.perc{
+    top: 0;
+    right: 0;
     background-color: green;
-    position: absolute;
-    left: 320px
 }
 
-.beats{position: absolute;
-    left: 720px;
+.sconto2{
+    position: absolute;
     top: 0;
-    border-style: solid;
+    right: 0;
+    background-color: red;
 }
 
-.phone2{
+.cuore{
+    color: red;
+    font-size: 30px;
     position: absolute;
-    top: 0px;
-    display: inline-block;
-    border-style: solid;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: none;
 }
 
-.tablet2{
-    position: absolute;
-    left: 360px;
-border-style: solid;}
-
-.beats2{
-    position: absolute;
-    left: 720px;
-    top: 0;
-    border-style: solid;
+.prodotto:hover .cuore{
+    display: block;
 }
