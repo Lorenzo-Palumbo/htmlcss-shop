@@ -1,0 +1,61 @@
+.container{position: relative;
+    left: 220px;
+}
+
+
+.container2{position: relative;
+    left: 220px;
+    top: 10px
+}
+
+img{
+    width: 350px;
+    height: 340px
+}
+
+.phone{
+    display: inline-block;
+    border-style: solid;
+}
+
+.percph{
+    background-color: red;
+    position: absolute;
+    left: 400px;
+}
+
+.tablet{position: absolute;
+    left: 360px;
+    border-style: solid;
+}
+
+.perc{
+    background-color: green;
+    position: absolute;
+    left: 320px
+}
+
+.beats{position: absolute;
+    left: 720px;
+    top: 0;
+    border-style: solid;
+}
+
+.phone2{
+    position: absolute;
+    top: 0px;
+    display: inline-block;
+    border-style: solid;
+}
+
+.tablet2{
+    position: absolute;
+    left: 360px;
+border-style: solid;}
+
+.beats2{
+    position: absolute;
+    left: 720px;
+    top: 0;
+    border-style: solid;
+}
